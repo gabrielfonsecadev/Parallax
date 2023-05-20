@@ -1,0 +1,71 @@
+body, html{
+    font: 16px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+
+/*Parallax*/
+.img1, .img2, .img3, .img4 {
+    height: 100%;
+    opacity: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.img1 {
+    background-image: url(imagens/imagem1.jpg);
+}
+
+.img2 {
+    background-image: url(imagens/imagem2.jpg);
+}
+
+.img3 {
+    background-image: url(imagens/imagem3.jpg);
+}
+
+.img4 {
+    background-image: url(imagens/imagem4.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo {
+    background-color: rgb(16, 16, 17);
+    color: white;
+    padding: 20px 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.conteudo {
+    padding: 50px 80px;
+    background: white;
+    text-align: justify;
+}
+
+.conteudo h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(64, 64, 64);
+}
+
+.conteudo {
+    color: rgb(64, 64, 64);
+}
+
+.conteudo a{
+    color: black;
+
+}
